@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { metaData } from '../layout';
 
-export const metaData = {
+
+export const metadata = {
     title: "About Page",
     description:" This is about page"
 }

@@ -3,7 +3,7 @@ import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metaData = {
+export const metadata = {
   title: "Home page",
   description: "This is Home page",
 };
