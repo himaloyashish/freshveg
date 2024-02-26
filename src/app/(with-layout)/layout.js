@@ -1,4 +1,4 @@
-import Navbar from '@/components/navbar/Navbar';
+
 import React from 'react';
 
 
@@ -10,7 +10,7 @@ export const metadata = {
 const Layout = ({children}) => {
     return (
         <div>
-            <Navbar></Navbar>
+            
             {children}
         </div>
     );
