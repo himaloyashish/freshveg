@@ -1,5 +1,7 @@
 .image{
-    background-image: url('https://www.freepik.com/free-ai-image/healthy-fresh-vegetable-salad-with-organic-ingredients-generated-by-ai_41639206.htm#fromView=search&page=1&position=46&uuid=8bbbcc06-ad03-4453-a5d0-25d1a3ec4b19');
+    background-image: url('https://img.freepik.com/free-photo/healthy-fresh-vegetable-salad-with-organic-ingredients-generated-by-ai_188544-27591.jpg?t=st=1708970133~exp=1708973733~hmac=6d29fc2ec305b076da5111180bd9ffa191e7621189b3d0236698bb08dbfb2d0d&w=1060');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    height: 100vh;
+    width: 1080px;
 }
