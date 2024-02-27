@@ -10,8 +10,8 @@ const Home = () => {
 
       </Image>
 
-      <div className='bg-[#FEECE2] '>
-        <p className='text-3xl py-4 font-bold text-center'>Vegetable gallery</p>
+      <div className='bg-[#FEECE2] py-20'>
+        <p className='text-3xl  font-bold text-center'>Vegetable gallery</p>
 
         <div className=' grid md:grid-cols-3 py-10 gap-6 w-4/5 m-auto'>
           <Image src={'https://img.freepik.com/free-photo/food-vegetable-colorful-background-tasty-fresh-vegetables-wooden-table-top-view-with-copy-space_1220-1490.jpg?size=626&ext=jpg&uid=R124603556&ga=GA1.1.152808567.1700245140&semt=ais'} width={400} height={300}>
@@ -35,6 +35,7 @@ const Home = () => {
         </div>
 
       </div>
+      
     </main>
   );
 }
