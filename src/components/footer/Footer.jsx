@@ -1,5 +1,5 @@
 "use client"
-import { IconButton } from '@mui/material';
+
 import Link from 'next/link';
 import React from 'react';
 
@@ -17,50 +17,34 @@ import React from 'react';
 const Footer = () => {
     return (
 
-        <div>
-            <p>FreshVeg</p>
+        <div className='bg-[#C5EBAA] '>
+            <p className='p-6 text-2xl'>FreshVeg</p>
 
             <div>
-                <div>
+                <div className='grid md:grid-cols-3 gap-10 px-6 py-4'>
                     <div>
-                        <p>
+                        <p className='text-xl'>
                             Welcome to FreshVeg, your online haven for the freshest, most vibrant vegetables you can find! Whether you're a seasoned home cook, a busy professional seeking healthy options, or simply someone looking to add more color to your plate, FreshVeg has everything you need.
                         </p>
                     </div>
+
                     <div>
-                        <input type="email" name="" id="" />
-                        <button type="submit">Submit</button>
-                    </div>
-                    <div>
-                        <p>Information</p>
-                        <div>
-                            <Link href={'about'}>About Us</Link>
-                            <Link href={'contact'}>Contact Us</Link>
-                            <Link href={'contact'}>Terms & Condition</Link>
-                            <Link href={'blog'}>Return & Refunds</Link>
-                            <Link href={'blog'}>Blog</Link>
+                        <p className='text-xl font-bold'>Information</p>
+                        <div className='flex flex-col'>
+                            <Link className='font-bold' href={'about'}>About Us</Link>
+                            <Link className='font-bold' href={'contact'}>Contact Us</Link>
+                            <Link className='font-bold' href={'contact'}>Terms & Condition</Link>
+                            <Link className='font-bold' href={'blog'}>Return & Refunds</Link>
+                            <Link className='font-bold' href={'blog'}>Blog</Link>
                         </div>
                     </div>
                     <div>
-                        <p>Quick Contact</p>
+                        <p className='font-bold text-xl'>Quick Contact</p>
                         <div>
-                            <div className='flex'>
-                               
-                                <p>Gulshan 2, Round Square</p>
-                            </div>
-                            <div className='flex'>
-                                
-                                <p>https://freshveg-cyan.vercel.app/</p>
-                            </div>
-                            <div className='flex'>
-                                
-                                <p>+88 99878 - 8779</p>
-                            </div>
+                            <p className='font-bold'>Gulshan 2, Round Square</p>
+                            <Link href={'https://freshveg-cyan.vercel.app/'} className='font-bold'></Link>
+                            <p className='font-bold'>+88 99878 - 8779</p>
                         </div>
-                    </div>
-                    <div>
-                       
-                       
                     </div>
 
                 </div>
