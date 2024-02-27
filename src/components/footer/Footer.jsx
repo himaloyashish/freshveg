@@ -11,8 +11,12 @@ import React from 'react';
 // import InstagramIcon from '@mui/icons-material/Instagram';
 // import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
+
+
+
 const Footer = () => {
     return (
+
         <div>
             <p>FreshVeg</p>
 
@@ -41,36 +45,22 @@ const Footer = () => {
                         <p>Quick Contact</p>
                         <div>
                             <div className='flex'>
-                                <IconButton aria-label="delete">
-                                    <AddLocationIcon />
-                                </IconButton>
+                               
                                 <p>Gulshan 2, Round Square</p>
                             </div>
                             <div className='flex'>
-                                <IconButton aria-label="delete">
-                                    <LanguageIcon />
-                                </IconButton>
+                                
                                 <p>https://freshveg-cyan.vercel.app/</p>
                             </div>
                             <div className='flex'>
-                                <IconButton aria-label="delete">
-                                    <CallEndIcon />
-                                </IconButton>
+                                
                                 <p>+88 99878 - 8779</p>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <p>Information</p>
-                        <IconButton aria-label="FacebookIcon">
-                            <FacebookIcon />
-                        </IconButton>
-                        <IconButton aria-label="InstagramIcon">
-                            <InstagramIcon />
-                        </IconButton>
-                        <IconButton aria-label="LinkedInIcon">
-                            <LinkedInIcon />
-                        </IconButton>
+                       
+                       
                     </div>
 
                 </div>
