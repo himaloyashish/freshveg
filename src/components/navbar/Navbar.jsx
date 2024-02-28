@@ -11,6 +11,7 @@ const Navbar = () => {
                 <ul className='md:flex gap-5'>
                     <Link className='text-xl font-bold' href={"/about"}>About</Link>
                     <Link className='text-xl font-bold' href={"/store"}>Store</Link>
+                    <Link className='text-xl font-bold' href={"/contact"}>Contact</Link>
                     <Link className='text-xl font-bold' href={"/dashboard"}>Dashboard</Link>
                 </ul>
             </div>

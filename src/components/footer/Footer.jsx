@@ -18,18 +18,18 @@ const Footer = () => {
     return (
 
         <div className='bg-[#C5EBAA] '>
-            <p className='p-6 text-2xl'>FreshVeg</p>
+            <p className='p-6 text-2xl font-bold'>FreshVeg</p>
 
             <div>
                 <div className='grid md:grid-cols-3 gap-10 px-6 py-4'>
                     <div>
-                        <p className='text-xl'>
+                        <p className='text-xl font-bold'>
                             Welcome to FreshVeg, your online haven for the freshest, most vibrant vegetables you can find! Whether you're a seasoned home cook, a busy professional seeking healthy options, or simply someone looking to add more color to your plate, FreshVeg has everything you need.
                         </p>
                     </div>
 
                     <div>
-                        <p className='text-xl font-bold'>Information</p>
+                        <p className='text-xl font-bold pb-3'>Information</p>
                         <div className='flex flex-col'>
                             <Link className='font-bold' href={'about'}>About Us</Link>
                             <Link className='font-bold' href={'contact'}>Contact Us</Link>
@@ -39,7 +39,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div>
-                        <p className='font-bold text-xl'>Quick Contact</p>
+                        <p className='font-bold text-xl pb-3'>Quick Contact</p>
                         <div>
                             <p className='font-bold'>Gulshan 2, Round Square</p>
                             <Link href={'https://freshveg-cyan.vercel.app/'} className='font-bold'></Link>
