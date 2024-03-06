@@ -17,7 +17,7 @@ const ContactPage = () => {
                     <label htmlFor="Name" className='py-2'>Name</label>
                     <input type="text" name="name" id="" />
                     <label htmlFor="Name" className='py-2'>Email</label>
-                    <input type="email" name="email" id="od"  />
+                    <input type="email" name="email" id="od" />
                     <button type="submit"  className='pt-3 shrink-1 bg-slate-300 '>Submit</button>
                 </form>
             </div>
